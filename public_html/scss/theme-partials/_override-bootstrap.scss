@@ -7,3 +7,8 @@ $font-size-base:1.6rem;
 
 $grid-gutter-width:12px;
 $gray-900:#1E1E1E;
+$header-color:#D0B6B6;
+
+$navbar-light-color:               $gray-900;
+$navbar-light-hover-color:         $header-color;
+$navbar-light-active-color:        $header-color;

@@ -1,0 +1,55 @@
+$header-hover:#ECD9D9;
+header{
+    
+    .navbar-brand{
+        max-width: 100%;
+        width: 24%;
+    }
+    .navbar-toggler{
+        span{
+            display:block;
+            width:30px;
+            height: 3px;
+            margin-bottom: 5px;
+            background-color: $header-color;
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+            
+        }//span end
+    }//navbartoggler end
+    
+    .navbar-nav{
+        a{
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            font-family: 'Lato', sans-serif;
+            padding:10px;
+            text-align: center;
+            text-transform: uppercase;
+            border-bottom: transparent;
+            &:hover{
+                border-bottom: 1px solid $header-hover;
+            }
+
+        }
+    }
+}//header end
+@media(min-width:768px){
+    .navbar-nav li{
+        margin-right: 30px;
+        &:last-of-type{
+            margin-right: 0;
+        }
+    }
+    
+}
+@media(min-width:992px){
+    .navbar-nav li{
+        margin-right: 72px;
+        &:last-of-type{
+            margin-right: 0;
+        }
+    }
+    
+}
