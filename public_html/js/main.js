@@ -19,4 +19,19 @@ $(document).ready (function(){
     });
     animation();
     
+    //OWL CAROUSEL
+    
+    if($('.our-team-slider'.length > 0))
+    {
+        $('.our-team-slider').owlCarousel({
+            loop:true,
+                    autoplay:true,
+                    responsive:{
+                       0:{items:1}
+                    }
+                    
+                   
+        });
+        
+    }
 });

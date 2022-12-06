@@ -1,0 +1,266 @@
+$bg-services:#F5F5F5;
+
+.section-title{
+    font-family: 'Bodoni';
+    font-size:3rem;
+    line-height: 4.5rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    &:after{
+        display:block;
+        content:'';
+        height:1px;
+        width:74px;
+        background-color: $hover;
+        margin-top: 20px;
+        margin-bottom: 49px;
+    }
+}
+.lead-page-section{
+    padding: 50px 0 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    position: relative;
+
+    a{
+        position:absolute;
+        left: 25%;
+        right: 25%;
+        bottom:30%;
+        font-family: 'Bodoni';
+        font-size: 2rem;
+        line-height: 2.8rem;
+        letter-spacing: 1rem;
+        text-align: center;
+        text-decoration: none;
+
+    }
+}
+//lead-page-section end
+
+//LEAD PAGE BLOG SECTION START
+
+.lead-page-blog-section{
+    padding:50px 0;
+
+    .lead-page-blog-item {
+        text-align: center;
+
+
+        .lead-page-blog-item-description{
+            width:90%;
+            margin:-90px 0 auto;
+            margin-left: 10px;
+
+            position: relative;
+            z-index: 2;
+            background-color: $white;
+            text-align: center;
+            .lead-page-blog-item-date{
+                padding: 22px 17px;
+                font-family: 'Bodoni';
+                font-size: 1.4rem;
+                line-height: 1.7rem;
+                text-align: center;
+                font-style: italic;
+            }
+            .lead-page-blog-item-link{
+                font-family: Lato;
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+                color: $gray-900;
+                text-align: center;
+                text-decoration: none;
+            }
+        }
+        //lead page blog item description end
+    }
+    //lead page blog item end
+}
+//lead page blog section end
+
+//SERVICES
+.services{
+    padding:56px 0 111px;
+    
+    .services-item{
+        
+
+        background-color: $bg-services;
+        &:nth-of-type(2){
+            background-color: $hover;
+        }
+        .services-content{
+            
+        }
+
+        .services-description{
+            font-family: Lato;
+            text-transform: uppercase;
+            font-size: 3.6rem;
+            line-height: 4.4rem;
+            
+            
+        }
+        
+        .btn{
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            letter-spacing: 0.5px;
+            font-family: Lato;
+            padding:13px 36px 15px 36px;
+            margin-top: 36px;
+        }
+    }
+}//SERVICES END
+
+//OUR TEAM SLIDER
+
+.our-team{
+    padding: 50px 0;
+    
+    .our-team-slider{
+         border:1px solid $hover!important;
+         padding: 54px 0px;
+         
+    }
+    .our-team-item{
+       padding:54px 190px 54px 95px;
+       
+        .our-team-content{
+             font-family: Lato;
+            }
+
+             .our-team-content-description{
+               font-size: 1.6rem;
+               line-height:2.3rem;
+               height: 8*2.3rem;
+               font-weight: 300;
+               text-align: left;
+               
+              
+               
+             }
+            .our-team-content-title{
+             font-size: 3rem;
+             line-height: 2.7rem;
+             margin-bottom: 35px;
+             margin-top: 85px;
+             text-transform: uppercase;
+            }
+        
+        .our-team-img{
+             
+            width: 100% ;
+            display: block;
+            margin-top: 54px;
+            
+       }
+    }
+}
+footer{
+    .footer-text{
+          font-family: Lato;
+        font-size: 1.2rem;
+        line-height: 4.1rem;
+        letter-spacing: 0.17px;
+    }
+    .social{
+        margin-bottom: 18px;
+        .fa-brands{
+            color:$hover;
+        }
+    }
+}
+
+
+@media(min-width:320px){
+    .services{
+        .services-item{
+            .services-description{
+                font-size: 3rem;
+                padding: 50px 20px;
+                
+            }
+            .btn{margin-bottom: 30px;
+            margin-left: 30px;}
+        }
+        
+    } //services end 
+    .our-team{
+       
+        .our-team-item{
+            padding: 20px 10px;
+        }
+    }
+}
+
+@media(min-width:576px){
+    .services{
+        .services-item{
+            .services-description{
+                padding: 70px 30px;
+            }
+        }
+    }
+    
+}
+@media(min-width:768px){
+    .lead-page-section{
+        padding:218px 0 269px;
+        a{
+            font-size: 4rem;
+            line-height: 6rem;
+            letter-spacing: 1.5rem;
+            text-align: center;
+
+        }
+    }
+    //lead page section end
+    .our-team{
+        padding: 111px 0 67px;
+        .our-team-item{
+            padding: 54px 20px;
+            .our-team-img{
+                
+            }
+             }
+    }
+}
+@media(min-width:992px){
+    .lead-page-section{
+
+        a{
+            font-size: 6rem;
+            line-height: 8.4rem;
+            letter-spacing: 2rem;
+        }
+    }
+    //lead-page-section end  
+
+    .services{
+        .services-item{
+            .btn{
+                margin-bottom: 95px;
+                margin-left: 95px;
+            }
+            .services-description{
+                padding: 90px 50px 20px;
+            font-size: 3.6rem;
+            line-height: 4.4rem;}
+        }
+    }}
+
+@media(min-width:1200px){
+    .services{
+        .services-item{
+            .services-description{
+             padding: 143px 95px 36px;   
+            }
+        }
+    }
+    
+    }
+

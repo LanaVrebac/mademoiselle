@@ -4,6 +4,16 @@ html {
   font-size: 10px;
 }
 
+.owl-theme .owl-dots .owl-dot span {
+  width: 8px;
+  height: 8px;
+  background: rgba(236, 217, 217, 0.34);
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #ECD9D9;
+}
+
 /*!
  * Bootstrap v4.6.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -9825,7 +9835,7 @@ header .navbar-nav a {
   padding: 10px;
   text-align: center;
   text-transform: uppercase;
-  border-bottom: transparent;
+  border-bottom: 1px solid transparent;
 }
 
 header .navbar-nav a:hover {
@@ -9847,6 +9857,224 @@ header .navbar-nav a:hover {
   }
   .navbar-nav li:last-of-type {
     margin-right: 0;
+  }
+}
+
+.section-title {
+  font-family: 'Bodoni';
+  font-size: 3rem;
+  line-height: 4.5rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.section-title:after {
+  display: block;
+  content: '';
+  height: 1px;
+  width: 74px;
+  background-color: #ECD9D9;
+  margin-top: 20px;
+  margin-bottom: 49px;
+}
+
+.lead-page-section {
+  padding: 50px 0 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: relative;
+}
+
+.lead-page-section a {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  bottom: 30%;
+  font-family: 'Bodoni';
+  font-size: 2rem;
+  line-height: 2.8rem;
+  letter-spacing: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.lead-page-blog-section {
+  padding: 50px 0;
+}
+
+.lead-page-blog-section .lead-page-blog-item {
+  text-align: center;
+}
+
+.lead-page-blog-section .lead-page-blog-item .lead-page-blog-item-description {
+  width: 90%;
+  margin: -90px 0 auto;
+  margin-left: 10px;
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+  text-align: center;
+}
+
+.lead-page-blog-section .lead-page-blog-item .lead-page-blog-item-description .lead-page-blog-item-date {
+  padding: 22px 17px;
+  font-family: 'Bodoni';
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.lead-page-blog-section .lead-page-blog-item .lead-page-blog-item-description .lead-page-blog-item-link {
+  font-family: Lato;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #1E1E1E;
+  text-align: center;
+  text-decoration: none;
+}
+
+.services {
+  padding: 56px 0 111px;
+}
+
+.services .services-item {
+  background-color: #F5F5F5;
+}
+
+.services .services-item:nth-of-type(2) {
+  background-color: #ECD9D9;
+}
+
+.services .services-item .services-description {
+  font-family: Lato;
+  text-transform: uppercase;
+  font-size: 3.6rem;
+  line-height: 4.4rem;
+}
+
+.services .services-item .btn {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.5px;
+  font-family: Lato;
+  padding: 13px 36px 15px 36px;
+  margin-top: 36px;
+}
+
+.our-team {
+  padding: 50px 0;
+}
+
+.our-team .our-team-slider {
+  border: 1px solid #ECD9D9 !important;
+  padding: 54px 0px;
+}
+
+.our-team .our-team-item {
+  padding: 54px 190px 54px 95px;
+}
+
+.our-team .our-team-item .our-team-content {
+  font-family: Lato;
+}
+
+.our-team .our-team-item .our-team-content-description {
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  height: 18.4rem;
+  font-weight: 300;
+  text-align: left;
+}
+
+.our-team .our-team-item .our-team-content-title {
+  font-size: 3rem;
+  line-height: 2.7rem;
+  margin-bottom: 35px;
+  margin-top: 85px;
+  text-transform: uppercase;
+}
+
+.our-team .our-team-item .our-team-img {
+  width: 100%;
+  display: block;
+  margin-top: 54px;
+}
+
+footer .footer-text {
+  font-family: Lato;
+  font-size: 1.2rem;
+  line-height: 4.1rem;
+  letter-spacing: 0.17px;
+}
+
+footer .social {
+  margin-bottom: 18px;
+}
+
+footer .social .fa-brands {
+  color: #ECD9D9;
+}
+
+@media (min-width: 320px) {
+  .services .services-item .services-description {
+    font-size: 3rem;
+    padding: 50px 20px;
+  }
+  .services .services-item .btn {
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
+  .our-team .our-team-item {
+    padding: 20px 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .services .services-item .services-description {
+    padding: 70px 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lead-page-section {
+    padding: 218px 0 269px;
+  }
+  .lead-page-section a {
+    font-size: 4rem;
+    line-height: 6rem;
+    letter-spacing: 1.5rem;
+    text-align: center;
+  }
+  .our-team {
+    padding: 111px 0 67px;
+  }
+  .our-team .our-team-item {
+    padding: 54px 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .lead-page-section a {
+    font-size: 6rem;
+    line-height: 8.4rem;
+    letter-spacing: 2rem;
+  }
+  .services .services-item .btn {
+    margin-bottom: 95px;
+    margin-left: 95px;
+  }
+  .services .services-item .services-description {
+    padding: 90px 50px 20px;
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .services .services-item .services-description {
+    padding: 143px 95px 36px;
   }
 }
 

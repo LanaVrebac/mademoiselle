@@ -8,7 +8,19 @@ $font-size-base:1.6rem;
 $grid-gutter-width:12px;
 $gray-900:#1E1E1E;
 $header-color:#D0B6B6;
-
+$hover:#ECD9D9;
 $navbar-light-color:               $gray-900;
 $navbar-light-hover-color:         $header-color;
 $navbar-light-active-color:        $header-color;
+$bg-services:#F5F5F5;
+
+.owl-theme .owl-dots .owl-dot span {
+      width: 8px;
+      height: 8px;
+      
+      background: rgba($hover, 0.34);
+      }
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      background: $hover; }
+
+

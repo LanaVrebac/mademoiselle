@@ -1,4 +1,5 @@
-$header-hover:#ECD9D9;
+$hover:#ECD9D9;
+
 header{
     
     .navbar-brand{
@@ -27,9 +28,9 @@ header{
             padding:10px;
             text-align: center;
             text-transform: uppercase;
-            border-bottom: transparent;
+            border-bottom: 1px solid transparent;
             &:hover{
-                border-bottom: 1px solid $header-hover;
+                border-bottom: 1px solid $hover;
             }
 
         }
