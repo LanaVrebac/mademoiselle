@@ -1,3 +1,22 @@
+
+@keyframes slideLeft{
+    0%{
+        opacity:0;
+        transform:translateX(50px);
+    }
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
+
+.slide-left{
+    animation: slideRight 1s linear;
+    animation-fill-mode: forwards;
+}
+
+
+
 @keyframes slideRight{
     0%{
         opacity:0;

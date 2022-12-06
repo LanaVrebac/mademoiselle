@@ -9738,6 +9738,22 @@ a.text-dark:hover, a.text-dark:focus {
 font-family: 'Lato', sans-serif;
 font-family: 'Bodoni', sans-serif;
 */
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.slide-left {
+  animation: slideRight 1s linear;
+  animation-fill-mode: forwards;
+}
+
 @keyframes slideRight {
   0% {
     opacity: 0;
@@ -9840,6 +9856,7 @@ header .navbar-nav a {
 
 header .navbar-nav a:hover {
   border-bottom: 1px solid #ECD9D9;
+  color: #1E1E1E;
 }
 
 @media (min-width: 768px) {
@@ -10075,6 +10092,37 @@ footer .social .fa-brands {
 @media (min-width: 1200px) {
   .services .services-item .services-description {
     padding: 143px 95px 36px;
+  }
+}
+
+.services-single {
+  padding: 50px 0;
+}
+
+.services-single .services-single-item .services-single-text {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+
+.services-single .services-single-item .services-single-title {
+  font-family: Lato;
+  font-size: 4.4rem;
+  line-height: 5rem;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 320px) {
+  .services-single .services-single-item .services-single-title {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .services-single {
+    padding: 170px 0 181px;
   }
 }
 
