@@ -1,0 +1,49 @@
+
+.blog-single-section{
+   padding: 50px 0; 
+ 
+  
+  .blog-single-content{
+      background: rgba($white, 0.5);
+      font-family: 'Lato';
+      .date-published{
+          font-family: 'Bodoni';
+          font-size: 1.4rem;
+          line-height: 1.7rem;
+          letter-spacing: 1px;
+      }
+      .date-text{
+          font-style: italic;
+      }
+      .blog-single-title{
+         
+          font-size: 4.4rem;
+          line-height: 5rem;
+          margin-bottom: 26px;
+      }
+      .blog-single-description{
+        font-weight: 300;
+        font-size: 2rem;
+        line-height: 2.8rem;
+      }
+      
+      
+  }}
+  .blog-single-text{
+      p{font-family: 'Bodoni';
+     font-size: 1.8rem;
+     line-height: 2.6rem;
+     font-weight: 300;}
+     
+      .tags{
+          font-family:'Bodoni';
+          font-size: 1.6rem;
+          line-height: 2.7rem;
+          .tag-title{
+              font-style: italic;}
+          
+      }}
+  
+  @media(min-width:768px){
+    padding: 165px 0 97px;   
+  }

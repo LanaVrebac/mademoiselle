@@ -10209,4 +10209,57 @@ footer .social .fa-brands {
   }
 }
 
+.blog-single-section {
+  padding: 50px 0;
+}
+
+.blog-single-section .blog-single-content {
+  background: rgba(255, 255, 255, 0.5);
+  font-family: 'Lato';
+}
+
+.blog-single-section .blog-single-content .date-published {
+  font-family: 'Bodoni';
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 1px;
+}
+
+.blog-single-section .blog-single-content .date-text {
+  font-style: italic;
+}
+
+.blog-single-section .blog-single-content .blog-single-title {
+  font-size: 4.4rem;
+  line-height: 5rem;
+  margin-bottom: 26px;
+}
+
+.blog-single-section .blog-single-content .blog-single-description {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.blog-single-text p {
+  font-family: 'Bodoni';
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  font-weight: 300;
+}
+
+.blog-single-text .tags {
+  font-family: 'Bodoni';
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+}
+
+.blog-single-text .tags .tag-title {
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  padding: 165px 0 97px;
+}
+
 /*# sourceMappingURL=theme.css.map */
