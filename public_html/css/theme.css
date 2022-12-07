@@ -4762,18 +4762,18 @@ input[type="button"].btn-block {
   display: block;
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
-  line-height: 1.25;
-  color: #007bff;
+  line-height: 2.4rem;
+  color: #1E1E1E;
   background-color: #fff;
-  border: 1px solid #dee2e6;
+  border: 1px solid transparent;
 }
 
 .page-link:hover {
   z-index: 2;
-  color: #0056b3;
+  color: #000;
   text-decoration: none;
-  background-color: #e9ecef;
-  border-color: #dee2e6;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .page-link:focus {
@@ -4795,9 +4795,9 @@ input[type="button"].btn-block {
 
 .page-item.active .page-link {
   z-index: 3;
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  color: #000;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .page-item.disabled .page-link {
@@ -4805,7 +4805,7 @@ input[type="button"].btn-block {
   pointer-events: none;
   cursor: auto;
   background-color: #fff;
-  border-color: #dee2e6;
+  border-color: transparent;
 }
 
 .pagination-lg .page-link {
@@ -10123,6 +10123,20 @@ footer .social .fa-brands {
 @media (min-width: 768px) {
   .services-single {
     padding: 170px 0 181px;
+  }
+}
+
+.blog {
+  padding: 50px 0;
+}
+
+.blog .pagination {
+  font-family: "Bodoni" !important;
+}
+
+@media (min-width: 778px) {
+  .blog {
+    padding: 88px 0 66px;
   }
 }
 

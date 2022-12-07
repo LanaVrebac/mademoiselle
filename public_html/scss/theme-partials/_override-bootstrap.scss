@@ -4,7 +4,7 @@ html{
 }
 $font-size-base:1.6rem;
 //override bootstrap variables
-
+$black:#000;
 $grid-gutter-width:12px;
 $gray-900:#1E1E1E;
 $header-color:#D0B6B6;
@@ -13,6 +13,17 @@ $navbar-light-color:               $gray-900;
 $navbar-light-hover-color:         $header-color;
 $navbar-light-active-color:        $header-color;
 $bg-services:#F5F5F5;
+$pagination-border-color:transparent;
+$pagination-color:$gray-900;
+
+$pagination-line-height:2.4rem;
+$pagination-active-color:$black;
+$pagination-active-bg:transparent;
+$pagination-active-border-color:transparent;
+$pagination-hover-color: $black;
+$pagination-hover-bg:transparent;
+$pagination-hover-border-color:    transparent;
+$pagination-disabled-border-color:  transparent;
 
 .owl-theme .owl-dots .owl-dot span {
       width: 8px;
