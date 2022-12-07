@@ -1,0 +1,80 @@
+$form-background:rgba(#253D61, 0.02);
+.contact{
+    padding:50px 0;
+    .contact-title{
+        font-family: 'Bodoni';
+        font-size: 3rem;
+        line-height: 4.5rem;
+        letter-spacing: 5px;
+        margin-bottom: 23px;
+    }
+    .contact-form
+    {
+        .form-group{
+             font-family:'Lato';
+        
+        .form-control{
+            border:none;
+            background-color: $form-background;
+           
+            font-weight: 300;
+            font-size: 1.6rem;
+            line-height: 2.5rem;
+            padding:12px 7px 11px 19px;
+            }//form-control end
+          .error-msg *{
+                color: $danger;
+                font-size: 1rem;
+            }  
+            .link-button{
+                padding: 13px 30.5px;
+                margin-top: 29px;
+                font-size: 1.4rem;
+                line-height: 1.7rem;
+            }
+    }//form-group end
+}//contact-form end
+
+}//contact end
+.contact-info{
+    padding: 50px 0;
+    margin-bottom: 46px;
+    .info-item{
+        padding:60px 0;
+        .info-data{
+            font-family: 'Lato';
+            font-weight: 300;
+            font-size: 2.4rem;
+            line-height: 2.5rem;
+            color: $gray-900;
+            a{
+              font-family: 'Lato';
+            font-weight: 300;
+            font-size: 2.4rem;
+            line-height: 2.5rem;
+            color: $gray-900;
+            text-decoration: none;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px){
+    .contact{
+        padding:
+            102px 0 110px;
+    }
+}
+

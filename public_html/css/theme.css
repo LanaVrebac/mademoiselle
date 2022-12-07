@@ -10140,4 +10140,73 @@ footer .social .fa-brands {
   }
 }
 
+.contact {
+  padding: 50px 0;
+}
+
+.contact .contact-title {
+  font-family: 'Bodoni';
+  font-size: 3rem;
+  line-height: 4.5rem;
+  letter-spacing: 5px;
+  margin-bottom: 23px;
+}
+
+.contact .contact-form .form-group {
+  font-family: 'Lato';
+}
+
+.contact .contact-form .form-group .form-control {
+  border: none;
+  background-color: rgba(37, 61, 97, 0.02);
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  padding: 12px 7px 11px 19px;
+}
+
+.contact .contact-form .form-group .error-msg * {
+  color: #dc3545;
+  font-size: 1rem;
+}
+
+.contact .contact-form .form-group .link-button {
+  padding: 13px 30.5px;
+  margin-top: 29px;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+
+.contact-info {
+  padding: 50px 0;
+  margin-bottom: 46px;
+}
+
+.contact-info .info-item {
+  padding: 60px 0;
+}
+
+.contact-info .info-item .info-data {
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+  color: #1E1E1E;
+}
+
+.contact-info .info-item .info-data a {
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+  color: #1E1E1E;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .contact {
+    padding: 102px 0 110px;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
