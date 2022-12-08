@@ -9860,7 +9860,6 @@ header .navbar-nav a {
 
 header .navbar-nav a:hover {
   border-bottom: 1px solid #ECD9D9;
-  color: #1E1E1E;
 }
 
 @media (min-width: 768px) {

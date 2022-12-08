@@ -21,7 +21,8 @@ header{
     }//navbartoggler end
     
     .navbar-nav{
-        a{
+        
+        a{ 
             font-size: 1.4rem;
             line-height: 1.7rem;
             font-family: 'Lato', sans-serif;
@@ -29,9 +30,10 @@ header{
             text-align: center;
             text-transform: uppercase;
             border-bottom: 1px solid transparent;
+            
             &:hover{
                 border-bottom: 1px solid $hover;
-                color:$gray-900;
+                
             }
 
         }
