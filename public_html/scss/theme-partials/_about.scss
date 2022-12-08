@@ -1,0 +1,43 @@
+
+.about{
+    padding:50px 0;
+    .about-form{
+        .btn{
+         right: 10%; 
+         top:20%;
+         font-style: italic;
+         
+         
+            
+        }
+        .form-group{
+            line-height: 69px;
+            height: 69px;
+            padding: 15px;
+        }
+    }
+    .about-item{
+        font-family:'Lato';
+        .about-item-title{
+            
+            font-size: 4.4rem;
+            line-height: 5rem;
+        }//abput-item-title-end
+        .about-item-description{
+          font-size: 2rem;
+          line-height: 2.8rem;
+          font-weight: 300;
+        }//about-item-description end
+        .about-item-img{
+           transition: 1s linear;
+           &:hover{
+               transform: scale(1.08);
+           }
+           margin-top:34px;
+           margin-bottom: 66px;
+            }
+        }
+    }//about-item end
+    @media(min-width:768px){
+        padding:91px 0 143px;
+    }
